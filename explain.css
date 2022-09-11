@@ -1,0 +1,35 @@
+header>h1{
+  font-size: 50px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  color: rgb(61, 25, 6);
+  width: 100vw;
+}
+
+header>a>div{
+  font-size: 30px;
+  display: grid;
+  justify-content: flex-start;
+  align-content: center;
+  background-color: rgb(61, 25, 6);
+  color: white;
+  width: 100vw;
+  height: 5vh;
+}
+
+header>a>div:hover{
+  background-color: rgba(61, 25, 6,0.7);
+}
+
+a{
+  text-decoration: none;
+}
+
+.alert{
+  color:red;
+}
+
+article>div{
+  font-weight: bold;
+}
